@@ -43,7 +43,7 @@ public class Util {
 
             Properties settings = new Properties();
             settings.put(Environment.DRIVER, DRIVER);
-            settings.put(Environment.URL, "mysql://localhost:3306/my_users?useSSL=false");//отключаем SSL
+            settings.put(Environment.URL, "jdbc:mysql://localhost:3306/my_users?useSSL=false");//отключаем SSL
             settings.put(Environment.USER, USERNAME);
             settings.put(Environment.PASS, PASSWORD);
             settings.put(Environment.DIALECT, "org.hibernate.dialect.MySQLDialect");

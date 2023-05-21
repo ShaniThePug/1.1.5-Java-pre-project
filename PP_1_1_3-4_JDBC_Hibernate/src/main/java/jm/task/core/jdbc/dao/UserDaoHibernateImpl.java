@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserDaoHibernateImpl implements UserDao {
-    Transaction transaction = null;
+    Transaction transaction;
 
     public UserDaoHibernateImpl() {
 
